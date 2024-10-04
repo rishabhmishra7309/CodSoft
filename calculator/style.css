@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.container{
+    height: 400px;
+    width: 280px;
+    border-radius: 20px;
+    background-color: rgba(122, 10, 113, 0.952);
+    box-shadow: 0px 0px 1px black;
+}
+.container textarea{
+    height: 70px;
+    width: 95%;
+    border-radius: 10px;
+    margin: 5px;
+    resize: none;
+    text-align: right;
+    font-size: 21px;
+    font-family: "verdana";
+    background: rgb(37, 49, 14);
+    outline: none;
+    color: white;
+    line-height: 50px;
+}
+.container .row button{
+    height: 50px;
+    width: 50px;
+    margin: 5px 8px;
+    cursor: pointer;
+    font-size: 17px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    box-shadow: 0px 0px 10px black;
+}
+.container .row button:hover{
+    background-color: rgb(33, 114, 221);
+}
